@@ -15868,7 +15868,7 @@ html body .rounded-circle {
 }
 
 #footer.footer-texts-more-lighten p, #footer.footer-texts-more-lighten span, #footer.footer-texts-more-lighten a:not(.btn):not(.no-footer-css), #footer.footer-texts-more-lighten li {
-	color: var(--grey-800);
+	color: var(--grey-8);
 }
 
 #footer.footer-texts-more-lighten a:not(.btn):not(.no-footer-css):hover {

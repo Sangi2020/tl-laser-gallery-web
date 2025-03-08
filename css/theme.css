@@ -532,6 +532,7 @@ li {
 	margin-left: 10px;
 }
 
+
 #header .header-nav-features:before, #header .header-nav-features:after {
 	background: rgba(0, 0, 0, 0.03);
 	content: none;
@@ -1484,7 +1485,7 @@ html.sticky-header-enabled.sticky-header-active #header .header-logo-sticky-chan
 		white-space: normal;
 		border-radius: var(--border-radius);
 		color: var(--grey-500);
-		font-size: 14px;
+		font-size: 18px;
 		font-style: normal;
 		font-weight: 600;
 		padding: 0.5rem 1rem;
@@ -12179,7 +12180,7 @@ h6 .inverted {
 }
 
 .text-3 {
-	font-size: 1em !important;
+	font-size: 1.5em !important;
 }
 
 .text-3-4,
@@ -12196,7 +12197,7 @@ h6 .inverted {
 }
 
 .text-5 {
-	font-size: 1.50em !important;
+	font-size: 2em !important;
 }
 
 .text-5-6,

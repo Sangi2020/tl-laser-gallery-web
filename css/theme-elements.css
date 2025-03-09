@@ -17023,7 +17023,7 @@ html.boxed .slider-container {
 	color: var(--dark--200) !important;
 	text-decoration: none;
 	font-size: 12.8px;
-	font-size: 0.8rem;
+	font-size: 1.2rem;
 }
 
 .social-icons li:hover a {
@@ -17090,7 +17090,9 @@ html.boxed .slider-container {
 .social-icons li:hover.social-icons-whatsapp a {
 	background: #25d366 !important;
 }
-
+.social-icons.social-icons-red li a {
+	background: #8b0000;
+}
 .social-icons.social-icons-dark li a {
 	background: #181818;
 }

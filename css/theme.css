@@ -2250,9 +2250,9 @@ html.sticky-header-enabled.sticky-header-active #header .header-logo-sticky-chan
 		color: #444;
 	}
 
-	#header .header-nav.header-nav-links.header-nav-light-text nav > ul > li > a, #header .header-nav.header-nav-line.header-nav-light-text nav > ul > li > a {
+	/* #header .header-nav.header-nav-links.header-nav-light-text nav > ul > li > a, #header .header-nav.header-nav-line.header-nav-light-text nav > ul > li > a {
 		color: var(--light);
-	}
+	} */
 
 	#header .header-nav.header-nav-links.header-nav-force-light-text nav > ul > li > a, #header .header-nav.header-nav-line.header-nav-force-light-text nav > ul > li > a {
 		color: var(--light) !important;

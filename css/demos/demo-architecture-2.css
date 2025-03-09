@@ -215,7 +215,7 @@ html.sticky-header-active #header .header-body {
 				background: #FFF !important;
 		}
 		#header .header-nav.header-nav-line nav > ul li:hover > a {
-				color: var(--light) !important;
+				color: red;
 		}
 		#header .header-nav.header-nav-line nav > ul li:hover > a:before {
 				background: #FFF !important;

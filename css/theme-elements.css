@@ -2779,7 +2779,7 @@ html.sticky-header-active .hamburguer-btn.hamburguer-btn-sticky-dark .close span
 }
 
 .btn-primary {
-	--hover: var(--primary--200);
+	--hover: red;
 	background-color: var(--primary);
 	border-color: var(--primary) var(--primary) var(--primary-300);
 	color: var(--primary-inverse);
@@ -2791,7 +2791,7 @@ html.sticky-header-active .hamburguer-btn.hamburguer-btn-sticky-dark .close span
 }
 
 .btn-primary:hover:not(.bg-transparent), .btn-primary.hover:not(.bg-transparent) {
-	background-color: var(--primary--200);
+	background-color:rgb(169, 25, 25);
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -5194,7 +5194,7 @@ body.dark .pagination > .active > a {
 
 .owl-carousel.nav-light.nav-style-1 .owl-nav .owl-next,
 .owl-carousel.nav-light.nav-style-1 .owl-nav .owl-prev {
-	color: var(--light) !important;
+	color: var(--primary) !important;
 }
 
 .owl-carousel.nav-light.nav-style-2 .owl-nav .owl-next:before, .owl-carousel.nav-light.nav-style-2 .owl-nav .owl-next:after,

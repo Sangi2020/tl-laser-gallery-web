@@ -56,6 +56,16 @@ h1, h2, h3, h4, h5, h6, .btn {
 		}
 }
 
+.top-wrapper{
+	padding-top: 0%;
+}
+@media (min-width: 768px) {
+	.top-wrapper {
+		padding-top: 20%;
+	}
+}
+
+
 .custom-container-position-1 {
 		position: relative;
 		transform: translate3d(-50%, 0, 0);

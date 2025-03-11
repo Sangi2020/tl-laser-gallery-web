@@ -17291,3 +17291,63 @@ html.gap-outside .pin-wrapper .sticky-wrapper.sticky-effect-active .sticky-body 
 	padding-left: 25px;
 	padding-right: 25px;
 }
+
+
+
+/* Navbar Background */
+.navbar {
+    background: rgba(242, 244, 229, 0.9); /* Light Transparent Background */
+    padding: 10px 20px;
+}
+
+/* Navbar Links */
+.navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #d62828; /* Highlight Color */
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-link {
+    color: #333;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.social-link:hover {
+    color: #d62828;
+}
+
+/* Responsive Adjustments */
+@media (min-width: 1024px) and (max-width: 1390px) {
+    .social-icons {
+        display: none !important; /* Hide social icons */
+    }
+
+    .navbar-nav {
+        flex: 1;
+        justify-content: center !important; /* Center navbar text */
+    }
+}
+
+@media (max-width: 1024px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .social-icons {
+        display: flex !important;
+        justify-content: center;
+        margin-top: 10px;
+    }
+}

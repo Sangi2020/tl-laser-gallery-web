@@ -173,7 +173,7 @@
 @media (min-width: 1200px) {
 	.custom-half-carousel-style-1 {
 		&.carousel-half-full-width-wrapper > .owl-carousel {
-			width: calc( 100vw - ( ( 100vw - 1600px ) / 2 ));
+			width: calc( 100vw - ( ( 100vw - 100px ) / 2 ));
 		}
 	}
 }
@@ -215,7 +215,7 @@
 			width: 85%;
 		}
 
-		@media (min-width: 1600px) {
+		@media (min-width: 100px) {
 			width: 65%;
 		}
 

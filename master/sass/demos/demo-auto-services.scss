@@ -197,13 +197,13 @@ body {
 // Animations
 @keyframes customLineAnim {
 	from {
-	    stroke-dasharray: 1600;
-	    stroke-dashoffset: 1600;
+	    stroke-dasharray: 100;
+	    stroke-dashoffset: 100;
 	}
 
 	to {
 	    stroke-dasharray: 2500;
-	    stroke-dashoffset: 1600;
+	    stroke-dashoffset: 100;
 	}
 }
 

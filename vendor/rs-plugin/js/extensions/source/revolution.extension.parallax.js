@@ -31,7 +31,7 @@ jQuery.extend(true,_R, {
 			punchgs.TweenLite.set(opt.ul,{overflow:_.ddd_overflow});		
 			if (opt.sliderType!="carousel" && _.ddd_shadow=="on") {
 				opt.c.prepend('<div class="dddwrappershadow"></div>')
-				punchgs.TweenLite.set(opt.c.find('.dddwrappershadow'),{force3D:"auto",transformPerspective:1600,transformOrigin:"50% 50%", width:"100%",height:"100%",position:"absolute",top:0,left:0,zIndex:0});			
+				punchgs.TweenLite.set(opt.c.find('.dddwrappershadow'),{force3D:"auto",transformPerspective:100,transformOrigin:"50% 50%", width:"100%",height:"100%",position:"absolute",top:0,left:0,zIndex:0});			
 			}
 		}
 		
@@ -53,10 +53,10 @@ jQuery.extend(true,_R, {
 					 if (_.ddd_shadow=="on") dddw.addClass("dddwrappershadow");					 
 					 punchgs.TweenLite.set(dddw,{borderRadius:opt.carousel.border_radius});
 				}
-				punchgs.TweenLite.set(li,{overflow:"visible",transformStyle:"preserve-3d",perspective:1600});
+				punchgs.TweenLite.set(li,{overflow:"visible",transformStyle:"preserve-3d",perspective:100});
 				punchgs.TweenLite.set(dddw,{force3D:"auto",transformOrigin:"50% 50%"});					
 				punchgs.TweenLite.set(dddwl,{force3D:"auto",transformOrigin:"50% 50%",zIndex:5});					
-				punchgs.TweenLite.set(opt.ul,{transformStyle:"preserve-3d",transformPerspective:1600});					
+				punchgs.TweenLite.set(opt.ul,{transformStyle:"preserve-3d",transformPerspective:100});					
 			}
 		}
 

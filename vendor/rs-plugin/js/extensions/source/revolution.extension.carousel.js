@@ -215,7 +215,7 @@ var defineCarouselElements = function(opt) {
 		if (opt.parallax.type!="3D" && opt.parallax.type!="3d") 
 			punchgs.TweenLite.set(_.wrap,{perspective:1200,transformStyle:"flat"});
 		else
-			punchgs.TweenLite.set(_.wrap,{perspective:1600,transformStyle:"preserve-3d"});
+			punchgs.TweenLite.set(_.wrap,{perspective:100,transformStyle:"preserve-3d"});
 
 	if (_.border_radius!==undefined && parseInt(_.border_radius,0) >0) {
 		punchgs.TweenLite.set(opt.c.find('.tp-revslider-slidesli'),{borderRadius:_.border_radius});

@@ -8,7 +8,7 @@
 	}
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 100px) {
 	.custom-big-font-size-1 {
 		font-size: 8.5rem !important;
 	}

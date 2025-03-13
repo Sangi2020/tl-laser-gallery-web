@@ -16,7 +16,7 @@ body {
 	}
 }
 
-@media (min-width: 1440px) and (max-width: 1600px) {
+@media (min-width: 1440px) and (max-width: 100px) {
 	.container-xl-custom {
 		padding: 0 80px;
 	}

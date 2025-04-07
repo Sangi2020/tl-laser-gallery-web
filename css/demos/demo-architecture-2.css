@@ -270,80 +270,157 @@ html.sticky-header-active #header .header-body {
 * Slider
 */
 .custom-slider-background {
-		display: flex;
-		align-items: stretch;
-		position: absolute;
-		top: 0;
-		left: 6.4vw;
-		right: 6.4vw;
-		bottom: 0;
-		transform: translate3d(0, 103px, 0);
-		opacity: 0;
-		transition: ease box-shadow 300ms;
+    display: flex;
+    align-items: stretch;
+    position: absolute;
+    top: 0;
+    left: 6.4vw;
+    right: 6.4vw;
+    bottom: 0;
+    transform: translate3d(0, 103px, 0);
+    opacity: 0;
+    transition: ease box-shadow 300ms;
 }
 
 .custom-slider-background .custom-slider-background-image-stage-outer {
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		position: relative;
-		width: 50%;
-		height: 100%;
-		overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
 }
 
 .custom-slider-background .custom-slider-background-image-stage-outer .custom-slider-background-image-stage {
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		position: relative;
-		width: 100%;
-		height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
 
 .custom-slider-background .custom-slider-background-image-stage-outer .custom-slider-background-image-stage .custom-slider-background-image-item {
-		width: 100%;
-		height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 .custom-slider-background.show {
-		opacity: 1;
+    opacity: 1;
 }
 
 .custom-slider-background.show .custom-slider-background-image-stage-outer .custom-slider-background-image-stage {
-		transition: ease transform 1s;
+    transition: ease transform 1s;
 }
 
-@media (max-width: 575px) {
-		.custom-slider-background .custom-slider-background-image-stage-outer {
-				width: 100%;
-		}
-		.custom-slider-background .custom-slider-background-image-stage-outer:nth-child(2) {
-				display: none;
-		}
+/* Responsive styles for slider */
+.slider-item {
+    height: 800px;
+}
+
+.owl-carousel-wrapper {
+    height: auto !important;
 }
 
 #slider .owl-nav {
-		transition: ease opacity 1s;
+    transition: ease opacity 1s;
 }
 
 #slider .owl-nav.hide {
-		opacity: 0;
-		visibility: hidden;
+    opacity: 0;
+    visibility: hidden;
 }
 
 #slider .owl-nav.show {
-		opacity: 1;
-		visibility: visible;
+    opacity: 1;
+    visibility: visible;
 }
 
 .has-sticky-header-transform .custom-slider-background {
-		transform: translate3d(0, 136px, 0);
+    transform: translate3d(0, 136px, 0);
 }
 
 .has-sticky-header-transform + #footer {
-		margin-top: -33px !important;
+    margin-top: -33px !important;
 }
+
+/* Responsive adjustments */
+@media (max-width: 1199px) {
+    .slider-item {
+        height: 700px;
+    }
+    
+    .text-lg-15 {
+        font-size: 4rem !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .slider-item {
+        height: 600px;
+    }
+    
+    .text-md-13 {
+        font-size: 3.5rem !important;
+    }
+    
+    .text-md-6 {
+        font-size: 1.5rem !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .slider-item {
+        height: 550px;
+    }
+    
+    .custom-container-style-2 {
+        padding-top: 2rem !important;
+    }
+    
+    h1.text-10 {
+        font-size: 2.5rem !important;
+    }
+    
+    h2.text-5 {
+        font-size: 1.2rem !important;
+    }
+    
+    p.text-3-5 {
+        font-size: 1rem !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .custom-slider-background .custom-slider-background-image-stage-outer {
+        width: 100%;
+    }
+    
+    .custom-slider-background .custom-slider-background-image-stage-outer:nth-child(2) {
+        display: none;
+    }
+    
+    .slider-item {
+        height: 500px;
+    }
+    
+    .custom-slider-background {
+        left: 0;
+        right: 0;
+    }
+    
+    /* Fix button spacing on mobile */
+    .btn {
+        padding: 0.5rem 1rem !important;
+    }
+    
+    /* Adjust margins for text elements */
+    .mb-5 {
+        margin-bottom: 1rem !important;
+    }
+}
+
 
 /*
 * Breadcrumb
@@ -420,72 +497,97 @@ html.sticky-header-active #header .header-body {
 		color: #aaaaaa !important;
 }
 
+
 /*
 * Custom Section
 */
 .custom-section {
-		display: flex;
-		align-items: center;
-		justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap; /* Helps with stacking on smaller screens */
 }
 
-.custom-section .custom-section-left-content,
-.custom-section .custom-section-right-content {
-		display: none;
+/* Show all content blocks by default */
+.custom-section-left-content,
+.custom-section-right-content {
+	display: block;
+	width: 100%;
+	position: relative;
+	margin-bottom: 20px;
 }
 
-.custom-section .custom-section-middle-content {
-		width: 100%;
-		margin: 0 -70px;
-		z-index: 1;
+.custom-section-middle-content {
+	width: 100%;
+	margin: 0;
+	z-index: 1;
+	margin-bottom: 20px;
 }
 
-@media (min-width: 768px) {
-		.custom-section .custom-section-left-content,
-		.custom-section .custom-section-right-content {
-				display: block;
-				width: 34vw;
-		}
-		.custom-section .custom-section-middle-content {
-				width: 50vw;
-		}
+/* Image Styling */
+.custom-image {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	display: block;
 }
 
-@media (min-width: 992px) {
-		.custom-section .custom-section-left-content,
-		.custom-section .custom-section-right-content {
-				width: 34vw;
-		}
-		.custom-section .custom-section-middle-content {
-				width: 40vw;
-		}
-}
-
-/*
-* Custom Heading Style
-*/
+/* Custom Heading Style */
 .custom-heading-style-1 {
-		position: relative;
-		color: var(--light);
+	position: relative;
+	color: var(--light);
 }
 
 .custom-heading-style-1 .custom-heading-style-1-step {
-		position: absolute;
-		font-size: 4.5em;
-		font-weight: 900;
-		font-family: 'Overpass', sans-serif;
-		top: 50%;
-		left: 0;
-		opacity: 0.1;
-		transform: translate3d(0, -50%, 0);
-		z-index: 0;
+	position: absolute;
+	font-size: 4.5em;
+	font-weight: 900;
+	font-family: 'Overpass', sans-serif;
+	top: 50%;
+	left: 0;
+	opacity: 0.1;
+	transform: translate3d(0, -50%, 0);
+	z-index: 0;
 }
 
 .custom-heading-style-1 .custom-heading-style-1-text {
-		position: relative;
-		letter-spacing: 4.5px;
-		z-index: 1;
+	position: relative;
+	letter-spacing: 4.5px;
+	z-index: 1;
 }
+
+/* Tablet View (768px and up) */
+@media (min-width: 1002px) {
+	.custom-section {
+		flex-direction: row;
+		flex-wrap: nowrap;
+	}
+
+	.custom-section-left-content,
+	.custom-section-right-content {
+		width: 34vw;
+		margin-bottom: 0;
+	}
+
+	.custom-section-middle-content {
+		width: 50vw;
+		margin: 0 -70px;
+	}
+}
+
+/* Desktop View (992px and up) */
+@media (min-width: 992px) {
+	.custom-section-left-content,
+	.custom-section-right-content {
+		width: 34vw;
+	}
+
+	.custom-section-middle-content {
+		width: 40vw;
+		margin: 0 -70px;
+	}
+}
+
 
 /*
 * Testimonial

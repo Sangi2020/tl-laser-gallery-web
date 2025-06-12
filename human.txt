@@ -1,14 +1,36 @@
-/* THANKS */
-TO OUR TL TECHNOLOGIES TEAM MEMBERS
-CONNECT WITH US : connect.tltechnologies.net
+
 
 /* TEAM */
-CEO:Sangeetha C Gopalakrishnan ( Sangi)
-Contact: sangig@tltechnologies.net
-CONNECT WITH US : connect.tltechnologies.net
-Location India/USA, Trivandrum
+Company Name: TL TECHNOLOGIES PVT. LTD.
+Location: Trivandrum / Cochin, Kerala, India
 
+CEO: Sangeetha C Gopalakrishnan (Sangi)
+Contact: Sangig@tltechnologies.net
+LinkedIn: https://www.linkedin.com/in/sangeethacg/
 
-Full stack Developer:  Arjun
-HR Administrator: 
+Front-End Developer: ARJUN 
+Back-End Developer: NIL
 Graphic Designer: Heba
+
+/* THANKS */
+Thanks to our amazing team and partners for making this site possible.
+
+/* CONNECT WITH US */
+Website: https://www.tltechnologies.net/
+Social: https://www.linkedin.com/company/tltechnologiespvtltd
+Email: sangig@tltechnologies.net
+
+/* TECHNOLOGIES USED */
+- Front-End:  HTML, CSS, JavaScript 
+- Back-End: NIL
+- Database: NIL
+- Hosting: Vercel
+
+/* SITE INFO */
+Site Url: https://www.mylasergallery.com/
+Last Updated: June 12, 2025
+Version: V.2025-1
+
+/* WHERE TO FIND US */
+Office Address: Trivandrum and Cochin, Kerala, India (Refine with specific addresses if desired)
+Phone Number: +91 9061432814
